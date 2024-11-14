@@ -1,0 +1,67 @@
+# Ignore build directories
+cmake-build-*/
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ignore CLion-specific files
+.idea/
+*.iml
+
+# Ignore executables and libraries
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore logs and debugging files
+*.log
+*.diff
+*.patch
+*.orig
+*.rej
+*.swo
+*.swp
+*.stackdump
+vgcore.*
+
+# Ignore user-specific files (optional)
+*.user
+*.user.*.lock
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files by Visual Studio Code, if you use it occasionally
+.vscode/
+
+# Ignore backup files
+*.bak
+*.tmp
+*~
+
+# Ignore shader cache files (optional)
+*.cache
+*.shadercache
+
+# Ignore object files and other build artifacts
+*.o
+*.obj
+*.d
+*.pdb
+*.ilk
+
+# Ignore CLion environment-specific files
+__pycache__/
+*.pyc
+
+# Ignore Git merge conflict files
+*.orig
